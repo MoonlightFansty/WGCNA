@@ -23,8 +23,8 @@ dim(net$MEs)
 net$MEs[1:4,1:4]
 net$MEsOK
 
-moduleColors = net$colors
 
+moduleColors = net$colors
 
 moduleColors <- ifelse(moduleColors == 'blue', '#0074b3',
                 ifelse(moduleColors == 'cyan', '#abd9e9',
